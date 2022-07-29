@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dfe6e9 ;
+}
+.car-container{
+    position: relative;
+    top:60%;
+    left: 20%;
+    
+}
+.car{
+    width: 12%;
+    height: auto;
+    position: absolute;
+}
+.enemy {
+    width: 80px;
+    height: 120px;
+    background-color:red ;
+    border-radius:10px;
+    position: absolute;
+    top:0%;
+    left: 20%;
+}
+.gameArea {
+    width: 50%;
+    height: 100vh;
+    background-color: #2d3436;
+    margin: auto;
+    position: relative;
+    border-right:10px solid #f1f2f6 ;
+    border-left:10px solid #f1f2f6 ;
+    overflow: hidden;
+}
+.hidden {
+    display: none;
+}
+.welcome-message {
+    font-size: 24px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #ff7f50;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+.startButton {
+    background-color: #ff6348 ;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    box-shadow: -3px 4px white;
+    padding:10px 20px;
+    position: absolute;
+    left: 48%;
+}
+.startButton:hover {
+    background-color: #f95032 ;
+    box-shadow: -6px 5px white;
+    font-weight: bold;
+}
+.welcome {
+    position: relative;
+}
+.lines{
+    width: 20px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+}
