@@ -1,2 +1,2 @@
 # carObstaclesGame
-cars and obstacles gmae
+cars and obstacles `game`
